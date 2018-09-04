@@ -4,8 +4,14 @@
   "main": "index.js",
   "repository": "ssh://git@github.com/otofu-square/webpack-sandbox",
   "license": "MIT",
+  "scripts": {
+    "build": "webpack --config webpack.config.js"
+  },
   "devDependencies": {
     "webpack": "4.17.2",
     "webpack-cli": "3.1.0"
+  },
+  "dependencies": {
+    "lodash": "4.17.10"
   }
 }
