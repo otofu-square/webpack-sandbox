@@ -1,8 +1,11 @@
 {
   "name": "webpack-sandbox",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "main": "index.js",
   "repository": "ssh://git@github.com/otofu-square/webpack-sandbox",
-  "author": "otofu-square <yukita@feedforce.jp>",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "webpack": "4.17.2",
+    "webpack-cli": "3.1.0"
+  }
 }
